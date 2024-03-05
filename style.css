@@ -82,3 +82,13 @@ footer p {
     margin-bottom: 0;
     text-align: center;
 }
+
+footer a {
+    color: var(--light-gold);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    transition: 1.8s;
+}
