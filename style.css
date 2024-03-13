@@ -1,5 +1,7 @@
 :root{
-    --light-gold: #b8a554;
+    --font-color: #b8a554;
+    --bg-color: #272725;
+    --bg-color-2: #1F1E1c;
 }
 
 * {
@@ -8,19 +10,23 @@
 }
 
 body {
-    background-color: #111;
-    color: var(--light-gold);
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
 header {
     text-align: center;
-    margin-top: 1rem;
+    background-color: var(--bg-color-2);
 }
 
 header .container-fluid{
-    color: var(--light-gold);
+    color: var(--font-color);
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
+}
+
+.offset-md-4, .mb-3{
+    margin-top: 1rem;
 }
 
 .section-1 {
@@ -32,11 +38,21 @@ header .container-fluid{
 }
 
 .carousel-control-prev, .carousel-control-next {
-    color: var(--light-gold);
+    color: var(--font-color);
 }
 
 .section-text {
     margin-top: 5rem;
+    margin-right: 2rem;
+    background-color: var(--bg-color-2);
+    border-radius: 10px;
+}
+
+.section-text p {
+    color: var(--font-color);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h1 {
@@ -51,14 +67,17 @@ p {
 }
 
 .btn-outline-primary {
-    color: var(--light-gold);
-    border-color: var(--light-gold);
+    color: var(--font-color);
+    border-color: var(--font-color);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .btn-outline-primary:hover {
     color: #111;
-    background-color: var(--light-gold);
-    border-color: var(--light-gold);
+    background-color: var(--font-color);
+    border-color: var(--font-color);
 }
 
 .section-2 {
@@ -75,7 +94,8 @@ p {
 footer {
     margin-top: 1.5rem;
     padding: 0.5rem;
-    color: var(--light-gold);
+    background-color: var(--bg-color-2);
+    color: var(--font-color);
 }
 
 footer p {
@@ -84,7 +104,7 @@ footer p {
 }
 
 footer a {
-    color: var(--light-gold);
+    color: var(--font-color);
     text-decoration: none;
 }
 
