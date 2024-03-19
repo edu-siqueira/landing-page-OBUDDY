@@ -29,6 +29,23 @@ header .container-fluid{
     margin-top: 1rem;
 }
 
+.img-section{
+    height: 45rem;
+    padding: 0;
+    background-image: url('assets/background01.png');
+    background-size: cover;
+    transition: 2s linear;
+}
+
+.img-text{
+    height: 40rem;
+    color: #F4F3F2;
+}
+
+.display-1{
+    margin-top: 4rem;
+}
+
 .section-1 {
     margin-top: 3.5rem;
 }
@@ -42,7 +59,6 @@ header .container-fluid{
 }
 
 .section-text {
-    margin-top: 5rem;
     margin-right: 2rem;
     background-color: var(--bg-color-2);
     border-radius: 10px;
@@ -53,10 +69,11 @@ header .container-fluid{
     font-family: "Saira", sans-serif;
     font-weight: 500;
     font-style: normal;
+    padding-bottom: 3rem;
 }
 
 h1 {
-    font-family: "Koulen", sans-serif;
+    font-family: "Iceberg", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -81,13 +98,12 @@ p {
 }
 
 .section-2 {
-    font-family: "Koulen", sans-serif;
+    font-family: "Iceberg", sans-serif;
     margin-top: 3.5rem;
 }
 
 .section-2 .btn {
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
     text-align: justify;
 }
 
