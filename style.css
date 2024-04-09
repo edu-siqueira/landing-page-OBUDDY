@@ -31,8 +31,9 @@ header .container-fluid{
 
 .img-section{
     height: 45rem;
+    width: 100vw;
     padding: 0;
-    background-image: url('assets/background01.png');
+    background-image: url('assets/background01new.png');
     background-size: cover;
     transition: 2s linear;
 }

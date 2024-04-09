@@ -24,7 +24,7 @@ themeSwitch.addEventListener('click', function(){
         root.style.setProperty('--bg-color', '#272725')
         root.style.setProperty('--bg-color-2', '#1F1E1c')
         root.style.setProperty('--font-color', '#b8a554')
-        backgroundImage.style.setProperty('background-image', "url('assets/background01.png')")
+        backgroundImage.style.setProperty('background-image', "url('assets/background01new.png')")
         telaInicial.src = 'assets/tela-inicial.png'
         telaDeDados.src = 'assets/tela-de-dados.png'
         telaDeErros.src = 'assets/tela-de-erros.png'
