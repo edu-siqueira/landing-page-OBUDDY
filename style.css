@@ -31,7 +31,7 @@ header .container-fluid{
 
 .img-section{
     height: 45rem;
-    width: 100vw;
+    width: 100%;
     padding: 0;
     background-image: url('assets/background01new.png');
     background-size: cover;
