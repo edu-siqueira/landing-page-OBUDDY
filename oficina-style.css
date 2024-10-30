@@ -1,0 +1,155 @@
+:root{
+    --font-color: #b8a554;
+    --bg-color: #0C1015;
+    --bg-color-2: #14171F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+header {
+    text-align: center;
+    background-color: var(--bg-color-2);
+}
+
+header .container-fluid{
+    color: var(--font-color);
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h3 {
+    color: var(--font-color);
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.offset-md-4, .mb-3{
+    margin-top: 1rem;
+}
+
+.btn-outline-primary {
+    color: var(--font-color);
+    border-color: var(--font-color);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-outline-primary:hover {
+    color: #111;
+    background-color: var(--font-color);
+    border-color: var(--font-color);
+}
+
+.display-1{
+    margin-top: 3rem;
+}
+
+.title-text{
+    height: 8rem;
+    color: var(--font-color);
+    text-shadow: 3px 3px var(--bg-color);
+}
+
+.section {
+    max-width: 720px;
+    width: 100%; 
+    margin: 2rem auto; 
+    padding: 1rem;
+}
+
+#form-div label {
+    margin: 1rem;
+    font-size: 42px;
+    font-family: 'Iceberg';
+}
+
+.form-text-section {
+    margin: 1rem;
+    align-content: start;
+}
+
+.form-section {
+    background-color: var(--bg-color-2);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+#form-div input[type=text], input[type=email] {
+    background-color: var(--bg-color-2);
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+    color: var(--font-color);
+    font-family: "Poppins", sans-serif;
+    padding: 2px;
+    text-align: center;
+}
+
+#form-div input[type=submit] {
+    margin: 3rem;
+    background-color: var(--bg-color-2);
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    color: var(--font-color);
+    padding: 8px;
+    width: 10rem;
+    transition: 0.5s;
+}
+
+#form-div input[type=submit]:hover {
+    background-color: var(--font-color);
+    border: 1px solid var(--font-color);
+    color: var(--bg-color-2);
+}
+
+.d-flex input {
+    width: 20rem;
+    align-self: center;
+}
+
+h1 {
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2rem;
+}
+
+p {
+    color: var(--font-color);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    padding: auto;
+}
+
+footer {
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    background-color: var(--bg-color-2);
+    color: var(--font-color);
+}
+
+footer p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer a {
+    color: var(--font-color);
+    text-decoration: none;
+}

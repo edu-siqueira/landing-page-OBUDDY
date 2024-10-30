@@ -21,11 +21,11 @@ themeSwitch.addEventListener('click', function(){
         div.dataset.theme = 'light'
         themeIcon.className = 'fa-solid fa-moon'
     } else {
-        root.style.setProperty('--bg-color', '#272725')
-        root.style.setProperty('--bg-color-2', '#1F1E1c')
+        root.style.setProperty('--bg-color', '#0C1015')
+        root.style.setProperty('--bg-color-2', '#14171F')
         root.style.setProperty('--font-color', '#b8a554')
-        backgroundImage.style.setProperty('background-image', "url('assets/background01new.png')")
-        telaInicial.src = 'assets/tela-inicial.png'
+        backgroundImage.style.setProperty('background-image', "url('assets/background01.png')")
+        telaInicial.src = 'assets/tela-principal.png'
         telaDeDados.src = 'assets/tela-de-dados.png'
         telaDeErros.src = 'assets/tela-de-erros.png'
         carouselIndicators.dataset.bsTheme = 'light'
