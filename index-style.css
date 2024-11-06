@@ -76,7 +76,17 @@ header .container-fluid{
     font-family: "Saira", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.section-1 h6 {
+    font-family: "Iceberg", sans-serif;
+}
+
+.section-1 .btn {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -96,30 +106,46 @@ p {
     font-family: "Saira", sans-serif;
     font-weight: 500;
     font-style: normal;
+    transition: 0.3s linear;
 }
 
 .btn-outline-primary:hover {
-    color: #111;
+    color: var(--bg-color);
     background-color: var(--font-color);
     border-color: var(--font-color);
 }
 
 .section-2 {
-    font-family: "Iceberg", sans-serif;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
+    background-color: var(--bg-color-2);
+    border-radius: 10px;
+    max-width: 480px;
+    width: 100%; 
+    margin: 2rem auto; 
+    padding: 1rem;
 }
+
+.section-2 h6 {
+    font-family: 'Iceberg';
+}
+
+.section-2 p {
+    color: var(--font-color);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    padding: auto;
+}
+
 
 .section-2 .btn {
     font-family: "Poppins", sans-serif;
-    text-align: justify;
+    transition: 0.3s linear;
 }
 
-.section-3 {
-    margin-top: 2.5rem;
-}
-
-.section-3 h6 {
-    font-family: 'Iceberg';
+.section-2 .btn:hover {
+    color: var(--bg-color);
 }
 
 footer {
