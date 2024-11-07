@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "firebase": "^9.4.0"
+  },
+  "type": "module",
+  "name": "landing-page-projeto-integrador",
+  "version": "1.0.0",
+  "description": "Landing Page do Projeto OBUDDY.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardo-S1queira/landing-page-PI.git"
+  },
+  "author": "Eduardo Siqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardo-S1queira/landing-page-PI/issues"
+  },
+  "homepage": "https://github.com/Eduardo-S1queira/landing-page-PI#readme"
+}

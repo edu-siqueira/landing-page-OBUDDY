@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OBUDDY</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="/style/index-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -54,13 +54,13 @@
                     <div id="carouselIndicators" class="carousel slide" data-bs-theme="light">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                              <img src="assets/Tela-Principal.png" class="img-fluid section-img" id="telaInicial" alt="...">
+                              <img src="/assets/Tela-Principal.png" class="img-fluid section-img" id="telaInicial" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="assets/Tela-de-Dados.png" class="img-fluid section-img" id="telaDeDados" alt="...">
+                            <img src="/assets/Tela-de-Dados.png" class="img-fluid section-img" id="telaDeDados" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="assets/Tela-de-Erros.png" class="img-fluid section-img" id="telaDeErros" alt="...">
+                            <img src="/assets/Tela-de-Erros.png" class="img-fluid section-img" id="telaDeErros" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
@@ -122,8 +122,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://kit.fontawesome.com/634c548ba8.js" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-<script src="teste.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+<script type="module" src="/src/index.js"></script>
 <script>
     AOS.init();
 </script>

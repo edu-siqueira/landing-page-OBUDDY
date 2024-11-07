@@ -98,6 +98,16 @@ header h3 {
     text-align: center;
 }
 
+#descricao-oficina {
+    resize: none;
+    background-color: var(--bg-color-2);
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+    color: var(--font-color);
+    font-family: "Poppins", sans-serif;
+    vertical-align: top;
+}
+
 #form-div input[type=submit] {
     margin: 3rem;
     background-color: var(--bg-color-2);

@@ -35,7 +35,7 @@ header .container-fluid{
     height: auto;
     width: 100%;
     padding: 0;
-    background-image: url('assets/background01.png');
+    background-image: url('/assets/background01.png');
     background-size: cover;
     transition: 2s linear;
 }
