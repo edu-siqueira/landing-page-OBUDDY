@@ -28,10 +28,10 @@ themeSwitch.addEventListener('click', function(){
         root.style.setProperty('--bg-color', '#F4F3F2')
         root.style.setProperty('--bg-color-2', '#e6e6e6')
         root.style.setProperty('--font-color', '#2C3E50')
-        backgroundImage.style.setProperty('background-image', "url('/assets/background02.png')")
-        telaInicial.src = '/assets/tela-principal-light.png'
-        telaDeDados.src = '/assets/tela-de-dados-light.png'
-        telaDeErros.src = '/assets/tela-de-erros-light.png'
+        backgroundImage.style.setProperty('background-image', "url('./assets/background02.png')")
+        telaInicial.src = './assets/tela-principal-light.png'
+        telaDeDados.src = './assets/tela-de-dados-light.png'
+        telaDeErros.src = './assets/tela-de-erros-light.png'
         carouselIndicators.dataset.bsTheme = 'dark'
         div.dataset.theme = 'light'
         themeIcon.className = 'fa-solid fa-moon'
@@ -39,10 +39,10 @@ themeSwitch.addEventListener('click', function(){
         root.style.setProperty('--bg-color', '#0C1015')
         root.style.setProperty('--bg-color-2', '#14171F')
         root.style.setProperty('--font-color', '#b8a554')
-        backgroundImage.style.setProperty('background-image', "url('/assets/background01.png')")
-        telaInicial.src = '/assets/tela-principal.png'
-        telaDeDados.src = '/assets/tela-de-dados.png'
-        telaDeErros.src = '/assets/tela-de-erros.png'
+        backgroundImage.style.setProperty('background-image', "url('./assets/background01.png')")
+        telaInicial.src = './assets/tela-principal.png'
+        telaDeDados.src = './assets/tela-de-dados.png'
+        telaDeErros.src = './assets/tela-de-erros.png'
         carouselIndicators.dataset.bsTheme = 'light'
         div.dataset.theme = 'dark'
         themeIcon.className = 'fa-solid fa-sun'
