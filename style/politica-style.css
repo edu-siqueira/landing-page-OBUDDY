@@ -113,3 +113,23 @@ footer a {
     color: var(--font-color);
     text-decoration: none;
 }
+
+  /* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .text-section {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .text-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .text-section p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}

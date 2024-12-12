@@ -100,6 +100,15 @@ p {
     text-align: justify;
 }
 
+.section-text a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.section-text a:hover{
+    color: var(--bg-color-2);
+}
+
 .btn-outline-primary {
     color: var(--font-color);
     border-color: var(--font-color);
@@ -167,4 +176,49 @@ footer p {
 footer a {
     color: var(--font-color);
     text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .img-section {
+        min-height: 30rem;
+        background-position: center;
+    }
+
+    .img-fluid {
+        height: auto;
+        width: 100%;
+    }
+
+    .section-text {
+        margin: 1rem;
+    }
+
+    .display-1 {
+        font-size: 2.5rem;
+    }
+
+    .btn-outline-primary {
+        font-size: 1rem;
+    }
+
+    #form-div input[type=text], input[type=email] {
+        width: 100%;
+    }
+
+    .title-text {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+.carousel-inner {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        max-height: 300px;
+    }
 }
