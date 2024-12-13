@@ -57,8 +57,8 @@ header .container-fluid{
 
 .img-fluid{
     border-radius: 10px;
-    height: 580px;
-    width: 320px;
+    max-height: 580px;
+    max-width: 320px;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -212,7 +212,14 @@ footer a {
     }
 }
 
+@media (max-width: 480px) {
+    .img-fluid {
+        height: auto;
+        width: 60%;
+    }
+}
+
 .carousel-inner {
     max-height: 900px;
-    overflow: visible;
+    overflow: hidden;
 }
