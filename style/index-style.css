@@ -202,23 +202,17 @@ footer a {
         font-size: 1rem;
     }
 
-    #form-div input[type=text], input[type=email] {
-        width: 100%;
-    }
-
     .title-text {
         font-size: 1.5rem;
         padding: 1rem;
     }
-}
 
-.carousel-inner {
-    max-height: 500px;
-    overflow: hidden;
-}
-
-@media (max-width: 768px) {
     .carousel-inner {
         max-height: 300px;
     }
+}
+
+.carousel-inner {
+    max-height: 900px;
+    overflow: visible;
 }
